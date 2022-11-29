@@ -27,7 +27,7 @@ body {
 }
 
 .headerT {
-  padding: 0.9em 2em;
+  padding: 1em 2em;
   box-shadow: 0px 0px 10px #9ea0a3;
   font-size: 13px;
   font-family: var(--font-serif);
@@ -111,10 +111,11 @@ h3 {
   gap: 1.3em;
   border: 1px solid black;
   border-radius: 30px;
-  width: 540px;
-  padding: 15px 20% 15px 10px;
-  height: 100%;
-  background-color: #f5f5f5;
+  /* width: 38rem; */
+  width: 42vw;
+  padding: 15px;
+  max-width: 100%;
+  background-color: #F7F9FA;
 }
 
 .nav-list3 img {
@@ -219,11 +220,12 @@ h3 {
 
 .view1 {
   position: relative;
-  margin: 0 15px 0 13px;
 }
 
 .view1 img {
-  width: 100%;
+ display: block;
+ margin: auto;
+ width: 98%;
 }
 
 .black-friday-card {
