@@ -18,21 +18,34 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  letter-spacing: -0.7px;
 }
 
 body {
   color: #1c1d1f;
+  width: 100vw;
 }
 
 .headerT {
-  padding: 1em 2em;
+  padding: 0.9em 2em;
   box-shadow: 0px 0px 10px #9ea0a3;
-  font-size: 12px;
+  font-size: 13px;
   font-family: var(--font-serif);
 }
 
 a button:hover {
   cursor: pointer;
+}
+
+h2 {
+  font-size: var(--h2-font);
+  letter-spacing: -0.4px;
+  font-family: var(--font-times);
+  font-weight: var(--bold-font);
+}
+
+h3 {
+  font-size: var(--h3-font);
 }
 
 .headerT a {
@@ -95,15 +108,16 @@ a button:hover {
 
 .nav-list3 form input {
   outline: 0;
-  padding: 15px;
   border: 1px solid black;
   border-radius: 30px;
-  width: 580px;
-  max-width: 100%;
+  width: 540px;
+  padding: 15px 20% 15px 10px;
+  height: 100%;
+  background-color: #f5f5f5;
 }
 
 ::placeholder {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .nav-list4-dropdown-content {
@@ -113,7 +127,6 @@ a button:hover {
   text-align: center;
   width: 270px;
   right: 0;
-  /* transform: translate(-20%, 0%); */
 }
 
 .nav-list4-dropdown-content .try{
@@ -168,6 +181,7 @@ a button:hover {
 .btn2 {
   border: 1px solid #1c1d1f;
   padding: 10px 15px;
+  max-width: 100%;
   font-size: 15px;
   font-weight: var(--bold-font);
 }
@@ -178,7 +192,8 @@ a button:hover {
 
 .nav-list7 .btn3 {
   border: 1px solid #263044;
-  padding: 12px 12px 8px;
+  padding: 10px 11px;
+  max-width: 100%;
 }
 
 .btn1:hover,
@@ -218,7 +233,6 @@ a button:hover {
   font-family: serif;
   font-size: 2.2em;
   font-weight: var(--bold-font);
-  letter-spacing: -0.04em;
   line-height: 38px;
   font-weight: var(--bold-font);
   font-family: var(--font-times);
@@ -262,10 +276,14 @@ a button:hover {
 
 .view2 .courses a {
   text-decoration: none;
-  font-size: var(--medium-P);
+  font-size: 14.5px;
   font-weight: var(--bold-font);
   font-family: var(--font-serif);
   color: #1c1d1f;
+}
+
+.view2 .courses a:not(.python) {
+  opacity: 0.7;
 }
 
 .view2 .courses-content p {
@@ -302,17 +320,6 @@ a button:hover {
   gap: 2em;
 }
 
-h2 {
-  font-size: var(--h2-font);
-  letter-spacing: -0.4px;
-  font-family: var(--font-times);
-  font-weight: var(--bold-font);
-}
-
-h3 {
-  font-size: var(--h3-font);
-}
-
 .view2 a button:hover {
   background-color: #f5f5f5;
 }
@@ -330,6 +337,7 @@ h3 {
 .view2 .carousel img {
   border: 1px solid #b3b6b9;
   width: 232px;
+  max-width: 100%;
   height: 45%;
   margin-bottom: 9px;
 }
@@ -364,7 +372,6 @@ h3 {
 .carousel-item .stars {
   font-size: 12px;
   font-weight: var(--bold-font);
-  /* opacity: 0.6; */
   color: #e59819;
 }
 
@@ -479,6 +486,7 @@ h3 {
 .view4 .carousel img {
   border: 1px solid #b3b6b9;
   width: 244px;
+  max-width: 100%;
   height: 45%;
   margin-bottom: 9px;
 }
@@ -502,7 +510,8 @@ h3 {
   gap: 0.8em;
 }
 
-.view5 img:hover {
+.view5 img {
+  width:100%;
   /* transform: scale(1.1);
   transition: 100ms; */
 }
@@ -553,7 +562,6 @@ h3 {
 .view6 a ~ span {
   font-size: var(--small-P);
   opacity: 0.6;
-  letter-spacing: -0.05em;
 }
 
 .view6 button {
@@ -619,7 +627,6 @@ h3 {
   gap: 1em;
   font-family: var(--font-serif);
   font-size: var(--large-P);
-  letter-spacing: -0.5px;
   line-height: 1.5em;
   padding-left: 20px;
 }
@@ -759,5 +766,5 @@ h3 {
 }
 
 .footerT .divB p {
-  font-size: 0.65em;
+  font-size: 0.7em;
 }
