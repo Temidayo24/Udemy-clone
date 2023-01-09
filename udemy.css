@@ -24,6 +24,7 @@
 body {
   color: #1c1d1f;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .headerT {
